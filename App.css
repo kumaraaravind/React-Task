@@ -1,42 +1,108 @@
-.movie-list{
-  
-  display: flex;
-  width: 100%;
-  height:auto
-  }
 
-.movie-card {
-  border: 1px solid #c0bcbc;
+.parent{
+  border:3px solid rgb(49, 34, 34);
+  width:50%;
+  height:100%;
   margin: 10px;
-  width: 300px;
-  background-color: #ebebeb;
-  
-  }
-  
-  .movie-card img {
+}
+.parent-one{
+  border: 1px solid black;
+  height:160px;
 
-  width: 100%;
-  max-height: 400px;
-  object-fit: cover;
-  margin-bottom: 14px;
-  
-  }
-  
-  .movie-card h2 {
-  
-  font-size: 1.5rem;
-  margin: 0;
-  
-  }
-  
-  .movie-card p {
-  
-  margin: 5px 0;
-  font-size: 1rem;
-  
-  }
-  .date{
-    font-size:12px;
+}
+.img-design{
+  width:50px;
+  margin-left: 40px;
+  position: relative;
+  bottom:50px
+  /* margin-bottom: 80px; */
+}
+.p-para{
+  text-align: center;
+  margin-left: 70px;
+  margin-top: 0px;
+}
 
-  }
- 
+.h-design{
+  text-align: center;
+  margin: 10px;
+}
+.h-payslip{
+  text-align: center;
+  display: inline;
+  margin-left: 50px;
+  margin-top: 30px;
+  
+}
+.child{
+  /* border: 1px solid rgb(41, 12, 12); */
+  display: flex;
+
+}
+.child1 span{
+  float: right;
+}
+.child1{
+  width:500px;
+  border: 1px solid black;
+}
+.child2{
+  width:500px;
+  border: 1px solid black;
+
+}
+.child-d1 span{
+  float:right;
+  font-weight: 600;
+
+}
+.child-d2 span{
+  float: right;
+  font-weight: 600;
+}
+.child p span{
+ /* display: flex; */
+ /* justify-content: center; */
+  font-weight: 550;
+  margin-left: 60px;
+
+  
+}
+p{
+  margin: 5px;
+  margin-bottom:0px;
+}
+.total-earning{
+  border: 1px solid rgb(22, 4, 4);
+  display: flex;
+}
+.child-one{
+  display: flex;
+
+}
+.child-d1,.child-d2{
+  width:500px;
+  border:1px solid black;
+  font-weight: 600;
+
+}
+.child-d2,.child-d3,.child-d4,.total-1,.total-2{
+  width:500px;
+  border:1px solid black;
+}
+.child-d4 span{
+  font-weight: 600;
+  float: right;
+}
+.child-two{
+  display: flex;
+
+}
+.child-d3 span{
+  font-weight: 600;
+  float: right;
+}
+
+
+
+
